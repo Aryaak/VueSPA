@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+
+        <header-component></header-component>
+
+        <main>
+            <router-view></router-view>
+        </main>
+
+        <footer-component></footer-component>
+
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="component/header-component.js"></script>
+<script src="component/home-component.js"></script>
+<script src="component/products-component.js"></script>
+<script src="component/about-component.js"></script>
+<script src="component/footer-component.js"></script>
+<script src="router.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

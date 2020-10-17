@@ -14,3 +14,5 @@ const HeaderComponent = {
             </div>
             </header>`
 }
+
+export default HeaderComponent;
